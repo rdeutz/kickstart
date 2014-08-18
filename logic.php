@@ -10,6 +10,12 @@ $active 	= $app->getMenu()->getActive();
 $pageclass 	= $params->get('pageclass_sfx');
 $tpath 		= $this->baseurl.'/templates/'.$this->template;
 
+/**
+ * frontpage check
+ */
+$defaultmenuitems = array($menu->getDefault()->id, $menu->getDefault(JFactory::getLanguage()->getTag())->id);
+$isFrontpage = in_array($active->id, $defaultmenuitems);
+
 // parameter
 $modernizr 	= $this->params->get('modernizr');
 

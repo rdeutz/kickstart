@@ -5,7 +5,7 @@ html {
 }
 body {
   background-color: #FFFFFF;
-    padding-top: 20px;
+  padding-top: 20px;
 }
 /* Floats */
 .float-left {
@@ -26,73 +26,67 @@ body {
   zoom: 1;
 }
 .img-responsive {
-    height: auto !important;
-    max-width: 100% !important;
-    display: block !important;
+  height: auto !important;
+  max-width: 100% !important;
+  display: block !important;
 }
-
+.navbar-default {
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.navbar-default a.navbar-brand {
+  color: #4edbf6;
+  text-transform: uppercase;
+}
+.area-menu {
+  border-bottom: 2px solid #4edbf6;
+}
 /* LAYOUT*/
-
-
+.offerings {
+  background-color: #eff1f4;
+}
 /*MENÜ*/
-
 /*SUBMENU*/
-
 /*BREADCRUMBS*/
-
 /*TOP*/
-.top {}
-
 /*SIDEBAR_A*/
-.sidebar-a {}
-
 /*SIDEBAR-B*/
-.sidebar-b {}
-
 /*INNER-TOP*/
-.inner-top {margin-bottom: 20px;}
-
+.inner-top {
+  margin-bottom: 20px;
+}
 /*CONTENT*/
-.content {}
-
 /*INNER-BOTTM*/
-.inner-bottom {margin-bottom: 20px;}
-
+.inner-bottom {
+  margin-bottom: 20px;
+}
 /*FOOTER*/
-.footer {}
-
 /*COPYRIGHT*/
 .copyright {
-    border-top: 1px solid #EEEEEE;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+  border-top: 1px solid #EEEEEE;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-
+/* Pagestreet */
+.pagestreet form h3 {
+  display: block;
+  background-color: #4e7bf5;
+  color: #ffffff;
+}
 /* Media Queries
 *********************************************/
 /* Retina */
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
-  
-}
 /* Extra small devices (phones, up to 480px) */
-@media (max-width: 480px) {
-  
-}
 /*Extra small devices*/
-@media (max-width: 767px) {
-
-}
 /* Small devices Tablets  */
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
 /* Medium desktop */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
 /* Large desktop */
 @media (min-width: 1200px) {
-  .bottom .col-md-2 .custom { height: 167px;}
-  .kontakt .box {width: 228px;}
+  .bottom .col-md-2 .custom {
+    height: 167px;
+  }
+  .kontakt .box {
+    width: 228px;
+  }
 }
